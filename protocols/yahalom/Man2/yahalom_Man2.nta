@@ -1,0 +1,6227 @@
+network
+
+#environment
+
+automaton 
+#0
+
+clocks x0 x1 x2 
+
+location 0
+end
+
+transition 0 0 1
+reset x0 x1
+end
+
+transition 0 0 2
+reset x0 x2
+end
+
+transition 0 0 3
+reset x0 
+end
+
+transition 0 0 4
+reset x0 
+end
+
+transition 0 0 5
+reset x0 x2
+end
+
+transition 0 0 6
+reset x0 x1
+end
+
+transition 0 0 7
+reset x0 
+end
+
+transition 0 0 8
+reset x0 
+end
+
+transition 0 0 9
+reset x0 
+end
+
+transition 0 0 10
+reset x0 
+end
+
+transition 0 0 11
+reset x0 x2
+end
+
+transition 0 0 12
+reset x0 
+end
+
+transition 0 0 13
+reset x0 
+end
+
+transition 0 0 14
+reset x0 
+end
+
+transition 0 0 15
+reset x0 
+end
+
+transition 0 0 16
+reset x0 
+end
+
+transition 0 0 17
+reset x0 
+end
+
+transition 0 0 18
+reset x0 
+end
+
+transition 0 0 19
+reset x0 
+end
+
+transition 0 0 20
+reset x0 x2
+end
+
+transition 0 0 21
+reset x0 
+end
+
+transition 0 0 22
+reset x0 
+end
+
+transition 0 0 23
+reset x0 
+end
+
+transition 0 0 24
+reset x0 
+end
+
+transition 0 0 25
+reset x0 
+end
+
+transition 0 0 26
+reset x0 
+end
+
+transition 0 0 27
+reset x0 
+end
+
+transition 0 0 28
+reset x0 
+end
+
+transition 0 0 29
+reset x0 x2
+end
+
+transition 0 0 30
+reset x0 
+end
+
+transition 0 0 31
+reset x0 
+end
+
+transition 0 0 32
+reset x0 
+end
+
+transition 0 0 33
+reset x0 
+end
+
+transition 0 0 34
+reset x0 
+end
+
+transition 0 0 35
+reset x0 
+end
+
+transition 0 0 36
+reset x0 
+end
+
+transition 0 0 37
+reset x0 
+end
+
+transition 0 0 38
+reset x0 x2
+end
+
+transition 0 0 39
+reset x0 
+end
+
+transition 0 0 40
+reset x0 
+end
+
+transition 0 0 41
+reset x0 
+end
+
+transition 0 0 42
+reset x0 
+end
+
+transition 0 0 43
+reset x0 
+end
+
+transition 0 0 44
+reset x0 
+end
+
+transition 0 0 45
+reset x0 
+end
+
+transition 0 0 46
+reset x0 
+end
+
+transition 0 0 47
+reset x0 x2
+end
+
+transition 0 0 48
+reset x0 
+end
+
+transition 0 0 49
+reset x0 
+end
+
+transition 0 0 50
+reset x0 
+end
+
+transition 0 0 51
+reset x0 
+end
+
+transition 0 0 52
+reset x0 
+end
+
+transition 0 0 53
+reset x0 
+end
+
+transition 0 0 54
+reset x0 
+end
+
+transition 0 0 55
+reset x0 
+end
+
+transition 0 0 56
+reset x0 x2
+end
+
+transition 0 0 57
+reset x0 
+end
+
+transition 0 0 58
+reset x0 
+end
+
+transition 0 0 59
+reset x0 
+end
+
+transition 0 0 60
+reset x0 
+end
+
+transition 0 0 61
+reset x0 
+end
+
+transition 0 0 62
+reset x0 
+end
+
+transition 0 0 63
+reset x0 
+end
+
+transition 0 0 64
+reset x0 
+end
+
+transition 0 0 65
+reset x0 x2
+end
+
+transition 0 0 66
+reset x0 
+end
+
+transition 0 0 67
+reset x0 
+end
+
+transition 0 0 68
+reset x0 
+end
+
+transition 0 0 69
+reset x0 
+end
+
+transition 0 0 70
+reset x0 
+end
+
+transition 0 0 71
+reset x0 
+end
+
+transition 0 0 72
+reset x0 
+end
+
+transition 0 0 73
+reset x0 
+end
+
+transition 0 0 74
+reset x0 x2
+end
+
+transition 0 0 75
+reset x0 
+end
+
+transition 0 0 76
+reset x0 
+end
+
+transition 0 0 77
+reset x0 
+end
+
+transition 0 0 78
+reset x0 
+end
+
+transition 0 0 79
+reset x0 
+end
+
+transition 0 0 80
+reset x0 
+end
+
+transition 0 0 81
+reset x0 x2
+end
+
+transition 0 0 82
+reset x0 
+end
+
+transition 0 0 83
+reset x0 
+end
+
+transition 0 0 84
+reset x0 
+end
+
+transition 0 0 85
+reset x0 x2
+end
+
+transition 0 0 86
+reset x0 
+end
+
+transition 0 0 87
+reset x0 
+end
+
+transition 0 0 88
+reset x0 
+end
+
+transition 0 0 89
+reset x0 
+end
+
+transition 0 0 90
+reset x0 
+end
+
+transition 0 0 91
+reset x0 
+end
+
+transition 0 0 92
+reset x0 
+end
+
+transition 0 0 93
+reset x0 x1
+end
+
+transition 0 0 94
+reset x0 
+end
+
+transition 0 0 95
+reset x0 
+end
+
+transition 0 0 96
+reset x0 
+end
+
+transition 0 0 97
+reset x0 
+end
+
+transition 0 0 98
+reset x0 
+end
+
+transition 0 0 99
+reset x0 
+end
+
+transition 0 0 100
+reset x0 
+end
+
+transition 0 0 101
+reset x0 
+end
+
+transition 0 0 102
+reset x0 x1
+end
+
+transition 0 0 103
+reset x0 
+end
+
+transition 0 0 104
+reset x0 
+end
+
+transition 0 0 105
+reset x0 
+end
+
+transition 0 0 106
+reset x0 
+end
+
+transition 0 0 107
+reset x0 
+end
+
+transition 0 0 108
+reset x0 
+end
+
+transition 0 0 109
+reset x0 
+end
+
+transition 0 0 110
+reset x0 
+end
+
+transition 0 0 111
+reset x0 x1
+end
+
+transition 0 0 112
+reset x0 
+end
+
+transition 0 0 113
+reset x0 
+end
+
+transition 0 0 114
+reset x0 
+end
+
+transition 0 0 115
+reset x0 
+end
+
+transition 0 0 116
+reset x0 
+end
+
+transition 0 0 117
+reset x0 
+end
+
+transition 0 0 118
+reset x0 
+end
+
+transition 0 0 119
+reset x0 
+end
+
+transition 0 0 120
+reset x0 x1
+end
+
+transition 0 0 121
+reset x0 
+end
+
+transition 0 0 122
+reset x0 
+end
+
+transition 0 0 123
+reset x0 
+end
+
+transition 0 0 124
+reset x0 
+end
+
+transition 0 0 125
+reset x0 
+end
+
+transition 0 0 126
+reset x0 
+end
+
+transition 0 0 127
+reset x0 
+end
+
+transition 0 0 128
+reset x0 
+end
+
+transition 0 0 129
+reset x0 x1
+end
+
+transition 0 0 130
+reset x0 
+end
+
+transition 0 0 131
+reset x0 
+end
+
+transition 0 0 132
+reset x0 
+end
+
+transition 0 0 133
+reset x0 
+end
+
+transition 0 0 134
+reset x0 
+end
+
+transition 0 0 135
+reset x0 
+end
+
+transition 0 0 136
+reset x0 
+end
+
+transition 0 0 137
+reset x0 
+end
+
+transition 0 0 138
+reset x0 x1
+end
+
+transition 0 0 139
+reset x0 
+end
+
+transition 0 0 140
+reset x0 
+end
+
+transition 0 0 141
+reset x0 
+end
+
+transition 0 0 142
+reset x0 
+end
+
+transition 0 0 143
+reset x0 
+end
+
+transition 0 0 144
+reset x0 
+end
+
+transition 0 0 145
+reset x0 
+end
+
+transition 0 0 146
+reset x0 
+end
+
+transition 0 0 147
+reset x0 x1
+end
+
+transition 0 0 148
+reset x0 
+end
+
+transition 0 0 149
+reset x0 
+end
+
+transition 0 0 150
+reset x0 
+end
+
+transition 0 0 151
+reset x0 
+end
+
+transition 0 0 152
+reset x0 
+end
+
+transition 0 0 153
+reset x0 
+end
+
+transition 0 0 154
+reset x0 
+end
+
+transition 0 0 155
+reset x0 
+end
+
+transition 0 0 156
+reset x0 x1
+end
+
+transition 0 0 157
+reset x0 
+end
+
+transition 0 0 158
+reset x0 
+end
+
+transition 0 0 159
+reset x0 
+end
+
+transition 0 0 160
+reset x0 
+end
+
+transition 0 0 161
+reset x0 
+end
+
+transition 0 0 162
+reset x0 
+end
+
+transition 0 0 163
+reset x0 x1
+end
+
+transition 0 0 164
+reset x0 
+end
+
+transition 0 0 165
+reset x0 
+end
+
+transition 0 0 166
+reset x0 
+end
+
+transition 0 0 167
+reset x0 x1
+end
+
+transition 0 0 168
+reset x0 
+end
+
+transition 0 0 169
+reset x0 
+end
+
+transition 0 0 170
+reset x0 
+end
+
+transition 0 0 171
+reset x0 
+end
+
+transition 0 0 172
+reset x0 
+end
+
+valuation
+end
+
+end
+
+automaton 
+#1
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 1
+x0 > D2
+end
+
+transition 1 2 2
+x0 > D4
+end
+
+transition 2 3 3
+x0 > D5
+end
+
+transition 3 4 4
+x0 > D5
+end
+
+valuation
+0 0
+1 1
+2 2
+3 3
+4 4
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#2
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 5
+x0 > D2
+end
+
+transition 1 2 6
+x0 > D4
+end
+
+transition 2 3 7
+x0 > D5
+end
+
+transition 3 4 8
+x0 > D5
+end
+
+valuation
+0 5
+1 6
+2 7
+3 8
+4 9
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#3
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 9
+x0 > D1
+end
+
+transition 0 1 10
+x0 > D1
+end
+
+transition 1 2 11
+x0 > D4
+end
+
+transition 2 3 12
+x0 > D5
+end
+
+transition 3 4 13
+x0 > D5
+end
+
+transition 3 4 14
+x0 > D5
+end
+
+transition 3 4 15
+x0 > D5
+end
+
+transition 3 4 16
+x0 > D5
+end
+
+transition 3 4 17
+x0 > D5
+end
+
+valuation
+0 10
+1 11
+2 12
+3 13
+4 14
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#4
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 18
+x0 > D1
+end
+
+transition 0 1 19
+x0 > D1
+end
+
+transition 1 2 20
+x0 > D4
+end
+
+transition 2 3 21
+x0 > D4
+end
+
+transition 3 4 22
+x0 > D5
+end
+
+transition 3 4 23
+x0 > D5
+end
+
+transition 3 4 24
+x0 > D5
+end
+
+transition 3 4 25
+x0 > D5
+end
+
+transition 3 4 26
+x0 > D5
+end
+
+valuation
+0 15
+1 16
+2 17
+3 18
+4 19
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#5
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 27
+x0 > D1
+end
+
+transition 0 1 28
+x0 > D1
+end
+
+transition 1 2 29
+x0 > D4
+end
+
+transition 2 3 30
+x0 > D5
+end
+
+transition 3 4 31
+x0 > D5
+end
+
+transition 3 4 32
+x0 > D5
+end
+
+transition 3 4 33
+x0 > D5
+end
+
+transition 3 4 34
+x0 > D5
+end
+
+transition 3 4 35
+x0 > D5
+end
+
+valuation
+0 20
+1 21
+2 22
+3 23
+4 24
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#6
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 36
+x0 > D1
+end
+
+transition 0 1 37
+x0 > D1
+end
+
+transition 1 2 38
+x0 > D4
+end
+
+transition 2 3 39
+x0 > D4
+end
+
+transition 3 4 40
+x0 > D5
+end
+
+transition 3 4 41
+x0 > D5
+end
+
+transition 3 4 42
+x0 > D5
+end
+
+transition 3 4 43
+x0 > D5
+end
+
+transition 3 4 44
+x0 > D5
+end
+
+valuation
+0 25
+1 26
+2 27
+3 28
+4 29
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#7
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 45
+x0 > D1
+end
+
+transition 0 1 46
+x0 > D1
+end
+
+transition 1 2 47
+x0 > D4
+end
+
+transition 2 3 48
+x0 > D4
+end
+
+transition 3 4 49
+x0 > D5
+end
+
+transition 3 4 50
+x0 > D5
+end
+
+transition 3 4 51
+x0 > D5
+end
+
+transition 3 4 52
+x0 > D5
+end
+
+transition 3 4 53
+x0 > D5
+end
+
+valuation
+0 30
+1 31
+2 32
+3 33
+4 34
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#8
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 54
+x0 > D1
+end
+
+transition 0 1 55
+x0 > D1
+end
+
+transition 1 2 56
+x0 > D4
+end
+
+transition 2 3 57
+x0 > D4
+end
+
+transition 3 4 58
+x0 > D5
+end
+
+transition 3 4 59
+x0 > D5
+end
+
+transition 3 4 60
+x0 > D5
+end
+
+transition 3 4 61
+x0 > D5
+end
+
+transition 3 4 62
+x0 > D5
+end
+
+valuation
+0 35
+1 36
+2 37
+3 38
+4 39
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#9
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 63
+x0 > D1
+end
+
+transition 0 1 64
+x0 > D1
+end
+
+transition 1 2 65
+x0 > D4
+end
+
+transition 2 3 66
+x0 > D4
+end
+
+transition 3 4 67
+x0 > D5
+end
+
+transition 3 4 68
+x0 > D5
+end
+
+transition 3 4 69
+x0 > D5
+end
+
+transition 3 4 70
+x0 > D5
+end
+
+transition 3 4 71
+x0 > D5
+end
+
+valuation
+0 40
+1 41
+2 42
+3 43
+4 44
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#10
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 72
+x0 > D1
+end
+
+transition 0 1 73
+x0 > D1
+end
+
+transition 1 2 74
+x0 > D4
+end
+
+transition 2 3 75
+x0 > D4
+end
+
+transition 3 4 76
+x0 > D5
+end
+
+transition 3 4 77
+x0 > D5
+end
+
+transition 3 4 78
+x0 > D5
+end
+
+transition 3 4 79
+x0 > D5
+end
+
+transition 3 4 80
+x0 > D5
+end
+
+valuation
+0 45
+1 46
+2 47
+3 48
+4 49
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#11
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 81
+x0 > D2
+end
+
+transition 1 2 82
+x0 > D4
+end
+
+transition 2 3 83
+x0 > D5
+end
+
+transition 3 4 84
+x0 > D5
+end
+
+valuation
+0 50
+1 51
+2 52
+3 53
+4 54
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#12
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 85
+x0 > D2
+end
+
+transition 1 2 86
+x0 > D3
+end
+
+transition 1 2 87
+x0 > D3
+end
+
+transition 1 2 88
+x0 > D3
+end
+
+transition 2 3 89
+x0 > D5
+end
+
+transition 3 4 90
+x0 > D3
+end
+
+valuation
+0 55
+1 56
+2 57
+3 58
+4 59
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#13
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 91
+x0 > D1
+end
+
+transition 0 1 92
+x0 > D1
+end
+
+transition 1 2 93
+x0 > D4
+end
+
+transition 2 3 94
+x0 > D5
+end
+
+transition 3 4 95
+x0 > D5
+end
+
+transition 3 4 96
+x0 > D5
+end
+
+transition 3 4 97
+x0 > D5
+end
+
+transition 3 4 98
+x0 > D5
+end
+
+transition 3 4 99
+x0 > D5
+end
+
+valuation
+0 60
+1 61
+2 62
+3 63
+4 64
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#14
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 100
+x0 > D1
+end
+
+transition 0 1 101
+x0 > D1
+end
+
+transition 1 2 102
+x0 > D4
+end
+
+transition 2 3 103
+x0 > D4
+end
+
+transition 3 4 104
+x0 > D5
+end
+
+transition 3 4 105
+x0 > D5
+end
+
+transition 3 4 106
+x0 > D5
+end
+
+transition 3 4 107
+x0 > D5
+end
+
+transition 3 4 108
+x0 > D5
+end
+
+valuation
+0 65
+1 66
+2 67
+3 68
+4 69
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#15
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 109
+x0 > D1
+end
+
+transition 0 1 110
+x0 > D1
+end
+
+transition 1 2 111
+x0 > D4
+end
+
+transition 2 3 112
+x0 > D5
+end
+
+transition 3 4 113
+x0 > D5
+end
+
+transition 3 4 114
+x0 > D5
+end
+
+transition 3 4 115
+x0 > D5
+end
+
+transition 3 4 116
+x0 > D5
+end
+
+transition 3 4 117
+x0 > D5
+end
+
+valuation
+0 70
+1 71
+2 72
+3 73
+4 74
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#16
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 118
+x0 > D1
+end
+
+transition 0 1 119
+x0 > D1
+end
+
+transition 1 2 120
+x0 > D4
+end
+
+transition 2 3 121
+x0 > D4
+end
+
+transition 3 4 122
+x0 > D5
+end
+
+transition 3 4 123
+x0 > D5
+end
+
+transition 3 4 124
+x0 > D5
+end
+
+transition 3 4 125
+x0 > D5
+end
+
+transition 3 4 126
+x0 > D5
+end
+
+valuation
+0 75
+1 76
+2 77
+3 78
+4 79
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#17
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 127
+x0 > D1
+end
+
+transition 0 1 128
+x0 > D1
+end
+
+transition 1 2 129
+x0 > D4
+end
+
+transition 2 3 130
+x0 > D4
+end
+
+transition 3 4 131
+x0 > D5
+end
+
+transition 3 4 132
+x0 > D5
+end
+
+transition 3 4 133
+x0 > D5
+end
+
+transition 3 4 134
+x0 > D5
+end
+
+transition 3 4 135
+x0 > D5
+end
+
+valuation
+0 80
+1 81
+2 82
+3 83
+4 84
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#18
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 136
+x0 > D1
+end
+
+transition 0 1 137
+x0 > D1
+end
+
+transition 1 2 138
+x0 > D4
+end
+
+transition 2 3 139
+x0 > D4
+end
+
+transition 3 4 140
+x0 > D5
+end
+
+transition 3 4 141
+x0 > D5
+end
+
+transition 3 4 142
+x0 > D5
+end
+
+transition 3 4 143
+x0 > D5
+end
+
+transition 3 4 144
+x0 > D5
+end
+
+valuation
+0 85
+1 86
+2 87
+3 88
+4 89
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#19
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 145
+x0 > D1
+end
+
+transition 0 1 146
+x0 > D1
+end
+
+transition 1 2 147
+x0 > D4
+end
+
+transition 2 3 148
+x0 > D4
+end
+
+transition 3 4 149
+x0 > D5
+end
+
+transition 3 4 150
+x0 > D5
+end
+
+transition 3 4 151
+x0 > D5
+end
+
+transition 3 4 152
+x0 > D5
+end
+
+transition 3 4 153
+x0 > D5
+end
+
+valuation
+0 90
+1 91
+2 92
+3 93
+4 94
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#20
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 154
+x0 > D1
+end
+
+transition 0 1 155
+x0 > D1
+end
+
+transition 1 2 156
+x0 > D4
+end
+
+transition 2 3 157
+x0 > D4
+end
+
+transition 3 4 158
+x0 > D5
+end
+
+transition 3 4 159
+x0 > D5
+end
+
+transition 3 4 160
+x0 > D5
+end
+
+transition 3 4 161
+x0 > D5
+end
+
+transition 3 4 162
+x0 > D5
+end
+
+valuation
+0 95
+1 96
+2 97
+3 98
+4 99
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#21
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 163
+x0 > D2
+end
+
+transition 1 2 164
+x0 > D4
+end
+
+transition 2 3 165
+x0 > D5
+end
+
+transition 3 4 166
+x0 > D5
+end
+
+valuation
+0 100
+1 101
+2 102
+3 103
+4 104
+end
+
+end
+
+#--------------------------------------------------------
+
+automaton 
+#22
+
+location 0
+end
+
+location 1
+end
+
+location 2
+end
+
+location 3
+end
+
+location 4
+end
+
+transition 0 1 167
+x0 > D2
+end
+
+transition 1 2 168
+x0 > D3
+end
+
+transition 1 2 169
+x0 > D3
+end
+
+transition 1 2 170
+x0 > D3
+end
+
+transition 2 3 171
+x0 > D5
+end
+
+transition 3 4 172
+x0 > D3
+end
+
+valuation
+0 105
+1 106
+2 107
+3 108
+4 109
+end
+
+end
+
+#--------------------------------------------------------
+
+
+#end environment
+#--------------------------------------------------------
+
+#agent 1
+
+#p_1 s_1(1)
+
+automaton 
+#23
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 1
+end
+
+transition 0 1 6
+x1 < L1
+end
+
+transition 0 1 93
+x1 < L1
+end
+
+transition 0 1 102
+x1 < L1
+end
+
+transition 0 1 111
+x1 < L1
+end
+
+transition 0 1 120
+x1 < L1
+end
+
+transition 0 1 129
+x1 < L1
+end
+
+transition 0 1 138
+x1 < L1
+end
+
+transition 0 1 147
+x1 < L1
+end
+
+transition 0 1 156
+x1 < L1
+end
+
+transition 0 1 163
+end
+
+transition 0 1 167
+end
+
+transition 1 1 3
+x1 < L1
+end
+
+transition 1 1 8
+x1 < L1
+end
+
+transition 1 1 95
+x1 < L1
+end
+
+transition 1 1 96
+x1 < L1
+end
+
+transition 1 1 97
+x1 < L1
+end
+
+transition 1 1 98
+x1 < L1
+end
+
+transition 1 1 99
+x1 < L1
+end
+
+transition 1 1 104
+x1 < L1
+end
+
+transition 1 1 105
+x1 < L1
+end
+
+transition 1 1 106
+x1 < L1
+end
+
+transition 1 1 107
+x1 < L1
+end
+
+transition 1 1 108
+x1 < L1
+end
+
+transition 1 1 113
+x1 < L1
+end
+
+transition 1 1 114
+x1 < L1
+end
+
+transition 1 1 115
+x1 < L1
+end
+
+transition 1 1 116
+x1 < L1
+end
+
+transition 1 1 117
+x1 < L1
+end
+
+transition 1 1 122
+x1 < L1
+end
+
+transition 1 1 123
+x1 < L1
+end
+
+transition 1 1 124
+x1 < L1
+end
+
+transition 1 1 125
+x1 < L1
+end
+
+transition 1 1 126
+x1 < L1
+end
+
+transition 1 1 131
+x1 < L1
+end
+
+transition 1 1 132
+x1 < L1
+end
+
+transition 1 1 133
+x1 < L1
+end
+
+transition 1 1 134
+x1 < L1
+end
+
+transition 1 1 135
+x1 < L1
+end
+
+transition 1 1 140
+x1 < L1
+end
+
+transition 1 1 141
+x1 < L1
+end
+
+transition 1 1 142
+x1 < L1
+end
+
+transition 1 1 143
+x1 < L1
+end
+
+transition 1 1 144
+x1 < L1
+end
+
+transition 1 1 149
+x1 < L1
+end
+
+transition 1 1 150
+x1 < L1
+end
+
+transition 1 1 151
+x1 < L1
+end
+
+transition 1 1 152
+x1 < L1
+end
+
+transition 1 1 153
+x1 < L1
+end
+
+transition 1 1 158
+x1 < L1
+end
+
+transition 1 1 159
+x1 < L1
+end
+
+transition 1 1 160
+x1 < L1
+end
+
+transition 1 1 161
+x1 < L1
+end
+
+transition 1 1 162
+x1 < L1
+end
+
+transition 1 1 165
+x1 < L1
+end
+
+transition 1 1 171
+x1 < L1
+end
+
+valuation
+0 110
+1 111
+end
+end
+#---------------------------------
+#p_1 k_1_2(1)
+
+automaton 
+#24
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 3
+end
+
+transition 0 1 8
+end
+
+transition 0 1 95
+end
+
+transition 0 1 96
+end
+
+transition 0 1 97
+end
+
+transition 0 1 98
+end
+
+transition 0 1 99
+end
+
+transition 0 1 104
+end
+
+transition 0 1 105
+end
+
+transition 0 1 106
+end
+
+transition 0 1 107
+end
+
+transition 0 1 108
+end
+
+transition 0 1 113
+end
+
+transition 0 1 114
+end
+
+transition 0 1 115
+end
+
+transition 0 1 116
+end
+
+transition 0 1 117
+end
+
+transition 0 1 122
+end
+
+transition 0 1 123
+end
+
+transition 0 1 124
+end
+
+transition 0 1 125
+end
+
+transition 0 1 126
+end
+
+transition 0 1 131
+end
+
+transition 0 1 132
+end
+
+transition 0 1 133
+end
+
+transition 0 1 134
+end
+
+transition 0 1 135
+end
+
+transition 0 1 140
+end
+
+transition 0 1 141
+end
+
+transition 0 1 142
+end
+
+transition 0 1 143
+end
+
+transition 0 1 144
+end
+
+transition 0 1 149
+end
+
+transition 0 1 150
+end
+
+transition 0 1 151
+end
+
+transition 0 1 152
+end
+
+transition 0 1 153
+end
+
+transition 0 1 158
+end
+
+transition 0 1 159
+end
+
+transition 0 1 160
+end
+
+transition 0 1 161
+end
+
+transition 0 1 162
+end
+
+transition 0 1 171
+end
+
+transition 1 1 8
+end
+
+transition 1 1 95
+end
+
+transition 1 1 96
+end
+
+transition 1 1 97
+end
+
+transition 1 1 98
+end
+
+transition 1 1 99
+end
+
+transition 1 1 104
+end
+
+transition 1 1 105
+end
+
+transition 1 1 106
+end
+
+transition 1 1 107
+end
+
+transition 1 1 108
+end
+
+transition 1 1 113
+end
+
+transition 1 1 114
+end
+
+transition 1 1 115
+end
+
+transition 1 1 116
+end
+
+transition 1 1 117
+end
+
+transition 1 1 122
+end
+
+transition 1 1 123
+end
+
+transition 1 1 124
+end
+
+transition 1 1 125
+end
+
+transition 1 1 126
+end
+
+transition 1 1 131
+end
+
+transition 1 1 132
+end
+
+transition 1 1 133
+end
+
+transition 1 1 134
+end
+
+transition 1 1 135
+end
+
+transition 1 1 140
+end
+
+transition 1 1 141
+end
+
+transition 1 1 142
+end
+
+transition 1 1 143
+end
+
+transition 1 1 144
+end
+
+transition 1 1 149
+end
+
+transition 1 1 150
+end
+
+transition 1 1 151
+end
+
+transition 1 1 152
+end
+
+transition 1 1 153
+end
+
+transition 1 1 158
+end
+
+transition 1 1 159
+end
+
+transition 1 1 160
+end
+
+transition 1 1 161
+end
+
+transition 1 1 162
+end
+
+valuation
+0 112
+1 113
+end
+end
+#---------------------------------
+#p_1 <k_2#1(1),i(p_1)|k_1_2(1)>
+
+automaton 
+#25
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 3
+end
+
+transition 0 1 171
+end
+
+transition 1 1 3
+end
+
+transition 1 1 171
+end
+
+valuation
+0 114
+1 115
+end
+end
+#---------------------------------
+#p_1 s_2(1)
+
+automaton 
+#26
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 3
+x2 < L2
+end
+
+transition 0 1 5
+x2 < L2
+end
+
+transition 0 1 109
+x2 < L2
+end
+
+transition 0 1 110
+x2 < L2
+end
+
+transition 0 1 118
+x2 < L2
+end
+
+transition 0 1 119
+x2 < L2
+end
+
+transition 0 1 145
+x2 < L2
+end
+
+transition 0 1 146
+x2 < L2
+end
+
+transition 0 1 154
+x2 < L2
+end
+
+transition 0 1 155
+x2 < L2
+end
+
+transition 0 1 171
+x2 < L2
+end
+
+transition 1 1 3
+x2 < L2
+end
+
+transition 1 1 6
+x2 < L2
+end
+
+transition 1 1 109
+x2 < L2
+end
+
+transition 1 1 110
+x2 < L2
+end
+
+transition 1 1 111
+x2 < L2
+end
+
+transition 1 1 118
+x2 < L2
+end
+
+transition 1 1 119
+x2 < L2
+end
+
+transition 1 1 120
+x2 < L2
+end
+
+transition 1 1 145
+x2 < L2
+end
+
+transition 1 1 146
+x2 < L2
+end
+
+transition 1 1 147
+x2 < L2
+end
+
+transition 1 1 154
+x2 < L2
+end
+
+transition 1 1 155
+x2 < L2
+end
+
+transition 1 1 156
+x2 < L2
+end
+
+transition 1 1 171
+x2 < L2
+end
+
+valuation
+0 116
+1 117
+end
+end
+#---------------------------------
+#p_1 s_0(1)
+
+automaton 
+#27
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 91
+end
+
+transition 0 1 92
+end
+
+transition 0 1 100
+end
+
+transition 0 1 101
+end
+
+transition 0 1 127
+end
+
+transition 0 1 128
+end
+
+transition 0 1 136
+end
+
+transition 0 1 137
+end
+
+transition 0 1 165
+end
+
+transition 1 1 91
+end
+
+transition 1 1 92
+end
+
+transition 1 1 93
+end
+
+transition 1 1 100
+end
+
+transition 1 1 101
+end
+
+transition 1 1 102
+end
+
+transition 1 1 127
+end
+
+transition 1 1 128
+end
+
+transition 1 1 129
+end
+
+transition 1 1 136
+end
+
+transition 1 1 137
+end
+
+transition 1 1 138
+end
+
+transition 1 1 165
+end
+
+valuation
+0 118
+1 119
+end
+end
+#---------------------------------
+#p_1 k_2_0(1)
+
+automaton 
+#28
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 3
+end
+
+transition 0 1 165
+end
+
+transition 0 1 171
+end
+
+valuation
+0 120
+1 121
+end
+end
+#---------------------------------
+#p_1 k_2#1(1)
+
+automaton 
+#29
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 3
+end
+
+transition 0 1 171
+end
+
+valuation
+0 122
+1 123
+end
+end
+#---------------------------------
+#end agent 1
+
+#agent 2
+
+#p_2 s_1(1)
+
+automaton 
+#30
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 1
+x1 < L1
+end
+
+transition 0 1 7
+x1 < L1
+end
+
+transition 0 1 27
+x1 < L1
+end
+
+transition 0 1 28
+x1 < L1
+end
+
+transition 0 1 36
+x1 < L1
+end
+
+transition 0 1 37
+x1 < L1
+end
+
+transition 0 1 63
+x1 < L1
+end
+
+transition 0 1 64
+x1 < L1
+end
+
+transition 0 1 72
+x1 < L1
+end
+
+transition 0 1 73
+x1 < L1
+end
+
+transition 0 1 89
+x1 < L1
+end
+
+transition 1 1 2
+x1 < L1
+end
+
+transition 1 1 7
+x1 < L1
+end
+
+transition 1 1 27
+x1 < L1
+end
+
+transition 1 1 28
+x1 < L1
+end
+
+transition 1 1 29
+x1 < L1
+end
+
+transition 1 1 36
+x1 < L1
+end
+
+transition 1 1 37
+x1 < L1
+end
+
+transition 1 1 38
+x1 < L1
+end
+
+transition 1 1 63
+x1 < L1
+end
+
+transition 1 1 64
+x1 < L1
+end
+
+transition 1 1 65
+x1 < L1
+end
+
+transition 1 1 72
+x1 < L1
+end
+
+transition 1 1 73
+x1 < L1
+end
+
+transition 1 1 74
+x1 < L1
+end
+
+transition 1 1 89
+x1 < L1
+end
+
+valuation
+0 124
+1 125
+end
+end
+#---------------------------------
+#p_2 k_1_2(1)
+
+automaton 
+#31
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 4
+end
+
+transition 0 1 7
+end
+
+transition 0 1 13
+end
+
+transition 0 1 14
+end
+
+transition 0 1 15
+end
+
+transition 0 1 16
+end
+
+transition 0 1 17
+end
+
+transition 0 1 22
+end
+
+transition 0 1 23
+end
+
+transition 0 1 24
+end
+
+transition 0 1 25
+end
+
+transition 0 1 26
+end
+
+transition 0 1 31
+end
+
+transition 0 1 32
+end
+
+transition 0 1 33
+end
+
+transition 0 1 34
+end
+
+transition 0 1 35
+end
+
+transition 0 1 40
+end
+
+transition 0 1 41
+end
+
+transition 0 1 42
+end
+
+transition 0 1 43
+end
+
+transition 0 1 44
+end
+
+transition 0 1 49
+end
+
+transition 0 1 50
+end
+
+transition 0 1 51
+end
+
+transition 0 1 52
+end
+
+transition 0 1 53
+end
+
+transition 0 1 58
+end
+
+transition 0 1 59
+end
+
+transition 0 1 60
+end
+
+transition 0 1 61
+end
+
+transition 0 1 62
+end
+
+transition 0 1 67
+end
+
+transition 0 1 68
+end
+
+transition 0 1 69
+end
+
+transition 0 1 70
+end
+
+transition 0 1 71
+end
+
+transition 0 1 76
+end
+
+transition 0 1 77
+end
+
+transition 0 1 78
+end
+
+transition 0 1 79
+end
+
+transition 0 1 80
+end
+
+transition 0 1 89
+end
+
+transition 1 1 4
+end
+
+transition 1 1 13
+end
+
+transition 1 1 14
+end
+
+transition 1 1 15
+end
+
+transition 1 1 16
+end
+
+transition 1 1 17
+end
+
+transition 1 1 22
+end
+
+transition 1 1 23
+end
+
+transition 1 1 24
+end
+
+transition 1 1 25
+end
+
+transition 1 1 26
+end
+
+transition 1 1 31
+end
+
+transition 1 1 32
+end
+
+transition 1 1 33
+end
+
+transition 1 1 34
+end
+
+transition 1 1 35
+end
+
+transition 1 1 40
+end
+
+transition 1 1 41
+end
+
+transition 1 1 42
+end
+
+transition 1 1 43
+end
+
+transition 1 1 44
+end
+
+transition 1 1 49
+end
+
+transition 1 1 50
+end
+
+transition 1 1 51
+end
+
+transition 1 1 52
+end
+
+transition 1 1 53
+end
+
+transition 1 1 58
+end
+
+transition 1 1 59
+end
+
+transition 1 1 60
+end
+
+transition 1 1 61
+end
+
+transition 1 1 62
+end
+
+transition 1 1 67
+end
+
+transition 1 1 68
+end
+
+transition 1 1 69
+end
+
+transition 1 1 70
+end
+
+transition 1 1 71
+end
+
+transition 1 1 76
+end
+
+transition 1 1 77
+end
+
+transition 1 1 78
+end
+
+transition 1 1 79
+end
+
+transition 1 1 80
+end
+
+valuation
+0 126
+1 127
+end
+end
+#---------------------------------
+#p_2 s_2(1)
+
+automaton 
+#32
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 2
+end
+
+transition 0 1 5
+end
+
+transition 0 1 11
+end
+
+transition 0 1 20
+end
+
+transition 0 1 29
+end
+
+transition 0 1 38
+end
+
+transition 0 1 47
+end
+
+transition 0 1 56
+end
+
+transition 0 1 65
+end
+
+transition 0 1 74
+end
+
+transition 0 1 81
+end
+
+transition 0 1 85
+end
+
+transition 1 1 4
+x2 < L2
+end
+
+transition 1 1 7
+x2 < L2
+end
+
+transition 1 1 13
+x2 < L2
+end
+
+transition 1 1 14
+x2 < L2
+end
+
+transition 1 1 15
+x2 < L2
+end
+
+transition 1 1 16
+x2 < L2
+end
+
+transition 1 1 17
+x2 < L2
+end
+
+transition 1 1 22
+x2 < L2
+end
+
+transition 1 1 23
+x2 < L2
+end
+
+transition 1 1 24
+x2 < L2
+end
+
+transition 1 1 25
+x2 < L2
+end
+
+transition 1 1 26
+x2 < L2
+end
+
+transition 1 1 31
+x2 < L2
+end
+
+transition 1 1 32
+x2 < L2
+end
+
+transition 1 1 33
+x2 < L2
+end
+
+transition 1 1 34
+x2 < L2
+end
+
+transition 1 1 35
+x2 < L2
+end
+
+transition 1 1 40
+x2 < L2
+end
+
+transition 1 1 41
+x2 < L2
+end
+
+transition 1 1 42
+x2 < L2
+end
+
+transition 1 1 43
+x2 < L2
+end
+
+transition 1 1 44
+x2 < L2
+end
+
+transition 1 1 49
+x2 < L2
+end
+
+transition 1 1 50
+x2 < L2
+end
+
+transition 1 1 51
+x2 < L2
+end
+
+transition 1 1 52
+x2 < L2
+end
+
+transition 1 1 53
+x2 < L2
+end
+
+transition 1 1 58
+x2 < L2
+end
+
+transition 1 1 59
+x2 < L2
+end
+
+transition 1 1 60
+x2 < L2
+end
+
+transition 1 1 61
+x2 < L2
+end
+
+transition 1 1 62
+x2 < L2
+end
+
+transition 1 1 67
+x2 < L2
+end
+
+transition 1 1 68
+x2 < L2
+end
+
+transition 1 1 69
+x2 < L2
+end
+
+transition 1 1 70
+x2 < L2
+end
+
+transition 1 1 71
+x2 < L2
+end
+
+transition 1 1 76
+x2 < L2
+end
+
+transition 1 1 77
+x2 < L2
+end
+
+transition 1 1 78
+x2 < L2
+end
+
+transition 1 1 79
+x2 < L2
+end
+
+transition 1 1 80
+x2 < L2
+end
+
+transition 1 1 83
+x2 < L2
+end
+
+transition 1 1 89
+x2 < L2
+end
+
+valuation
+0 128
+1 129
+end
+end
+#---------------------------------
+#p_2 s_0(1)
+
+automaton 
+#33
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 9
+end
+
+transition 0 1 10
+end
+
+transition 0 1 18
+end
+
+transition 0 1 19
+end
+
+transition 0 1 45
+end
+
+transition 0 1 46
+end
+
+transition 0 1 54
+end
+
+transition 0 1 55
+end
+
+transition 0 1 83
+end
+
+transition 1 1 9
+end
+
+transition 1 1 10
+end
+
+transition 1 1 11
+end
+
+transition 1 1 18
+end
+
+transition 1 1 19
+end
+
+transition 1 1 20
+end
+
+transition 1 1 45
+end
+
+transition 1 1 46
+end
+
+transition 1 1 47
+end
+
+transition 1 1 54
+end
+
+transition 1 1 55
+end
+
+transition 1 1 56
+end
+
+transition 1 1 83
+end
+
+valuation
+0 130
+1 131
+end
+end
+#---------------------------------
+#p_2 k_2_0(1)
+
+automaton 
+#34
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 4
+end
+
+transition 0 1 13
+end
+
+transition 0 1 14
+end
+
+transition 0 1 15
+end
+
+transition 0 1 16
+end
+
+transition 0 1 17
+end
+
+transition 0 1 22
+end
+
+transition 0 1 23
+end
+
+transition 0 1 24
+end
+
+transition 0 1 25
+end
+
+transition 0 1 26
+end
+
+transition 0 1 31
+end
+
+transition 0 1 32
+end
+
+transition 0 1 33
+end
+
+transition 0 1 34
+end
+
+transition 0 1 35
+end
+
+transition 0 1 40
+end
+
+transition 0 1 41
+end
+
+transition 0 1 42
+end
+
+transition 0 1 43
+end
+
+transition 0 1 44
+end
+
+transition 0 1 49
+end
+
+transition 0 1 50
+end
+
+transition 0 1 51
+end
+
+transition 0 1 52
+end
+
+transition 0 1 53
+end
+
+transition 0 1 58
+end
+
+transition 0 1 59
+end
+
+transition 0 1 60
+end
+
+transition 0 1 61
+end
+
+transition 0 1 62
+end
+
+transition 0 1 67
+end
+
+transition 0 1 68
+end
+
+transition 0 1 69
+end
+
+transition 0 1 70
+end
+
+transition 0 1 71
+end
+
+transition 0 1 76
+end
+
+transition 0 1 77
+end
+
+transition 0 1 78
+end
+
+transition 0 1 79
+end
+
+transition 0 1 80
+end
+
+transition 0 1 83
+end
+
+transition 1 1 4
+end
+
+transition 1 1 13
+end
+
+transition 1 1 14
+end
+
+transition 1 1 15
+end
+
+transition 1 1 16
+end
+
+transition 1 1 17
+end
+
+transition 1 1 22
+end
+
+transition 1 1 23
+end
+
+transition 1 1 24
+end
+
+transition 1 1 25
+end
+
+transition 1 1 26
+end
+
+transition 1 1 31
+end
+
+transition 1 1 32
+end
+
+transition 1 1 33
+end
+
+transition 1 1 34
+end
+
+transition 1 1 35
+end
+
+transition 1 1 40
+end
+
+transition 1 1 41
+end
+
+transition 1 1 42
+end
+
+transition 1 1 43
+end
+
+transition 1 1 44
+end
+
+transition 1 1 49
+end
+
+transition 1 1 50
+end
+
+transition 1 1 51
+end
+
+transition 1 1 52
+end
+
+transition 1 1 53
+end
+
+transition 1 1 58
+end
+
+transition 1 1 59
+end
+
+transition 1 1 60
+end
+
+transition 1 1 61
+end
+
+transition 1 1 62
+end
+
+transition 1 1 67
+end
+
+transition 1 1 68
+end
+
+transition 1 1 69
+end
+
+transition 1 1 70
+end
+
+transition 1 1 71
+end
+
+transition 1 1 76
+end
+
+transition 1 1 77
+end
+
+transition 1 1 78
+end
+
+transition 1 1 79
+end
+
+transition 1 1 80
+end
+
+valuation
+0 132
+1 133
+end
+end
+#---------------------------------
+#p_2 <k_0#1(1),i(p_2)|k_2_0(1)>
+
+automaton 
+#35
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 83
+end
+
+transition 1 1 83
+end
+
+valuation
+0 134
+1 135
+end
+end
+#---------------------------------
+#p_2 <k_1#1(1),i(p_2)|k_2_1(1)>
+
+automaton 
+#36
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 7
+end
+
+transition 0 1 89
+end
+
+transition 1 1 7
+end
+
+transition 1 1 89
+end
+
+valuation
+0 136
+1 137
+end
+end
+#---------------------------------
+#p_2 k_2#1(1)
+
+automaton 
+#37
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 4
+end
+
+transition 0 1 13
+end
+
+transition 0 1 14
+end
+
+transition 0 1 15
+end
+
+transition 0 1 16
+end
+
+transition 0 1 17
+end
+
+transition 0 1 22
+end
+
+transition 0 1 23
+end
+
+transition 0 1 24
+end
+
+transition 0 1 25
+end
+
+transition 0 1 26
+end
+
+transition 0 1 31
+end
+
+transition 0 1 32
+end
+
+transition 0 1 33
+end
+
+transition 0 1 34
+end
+
+transition 0 1 35
+end
+
+transition 0 1 40
+end
+
+transition 0 1 41
+end
+
+transition 0 1 42
+end
+
+transition 0 1 43
+end
+
+transition 0 1 44
+end
+
+transition 0 1 49
+end
+
+transition 0 1 50
+end
+
+transition 0 1 51
+end
+
+transition 0 1 52
+end
+
+transition 0 1 53
+end
+
+transition 0 1 58
+end
+
+transition 0 1 59
+end
+
+transition 0 1 60
+end
+
+transition 0 1 61
+end
+
+transition 0 1 62
+end
+
+transition 0 1 67
+end
+
+transition 0 1 68
+end
+
+transition 0 1 69
+end
+
+transition 0 1 70
+end
+
+transition 0 1 71
+end
+
+transition 0 1 76
+end
+
+transition 0 1 77
+end
+
+transition 0 1 78
+end
+
+transition 0 1 79
+end
+
+transition 0 1 80
+end
+
+transition 1 1 4
+end
+
+transition 1 1 13
+end
+
+transition 1 1 14
+end
+
+transition 1 1 15
+end
+
+transition 1 1 16
+end
+
+transition 1 1 17
+end
+
+transition 1 1 22
+end
+
+transition 1 1 23
+end
+
+transition 1 1 24
+end
+
+transition 1 1 25
+end
+
+transition 1 1 26
+end
+
+transition 1 1 31
+end
+
+transition 1 1 32
+end
+
+transition 1 1 33
+end
+
+transition 1 1 34
+end
+
+transition 1 1 35
+end
+
+transition 1 1 40
+end
+
+transition 1 1 41
+end
+
+transition 1 1 42
+end
+
+transition 1 1 43
+end
+
+transition 1 1 44
+end
+
+transition 1 1 49
+end
+
+transition 1 1 50
+end
+
+transition 1 1 51
+end
+
+transition 1 1 52
+end
+
+transition 1 1 53
+end
+
+transition 1 1 58
+end
+
+transition 1 1 59
+end
+
+transition 1 1 60
+end
+
+transition 1 1 61
+end
+
+transition 1 1 62
+end
+
+transition 1 1 67
+end
+
+transition 1 1 68
+end
+
+transition 1 1 69
+end
+
+transition 1 1 70
+end
+
+transition 1 1 71
+end
+
+transition 1 1 76
+end
+
+transition 1 1 77
+end
+
+transition 1 1 78
+end
+
+transition 1 1 79
+end
+
+transition 1 1 80
+end
+
+valuation
+0 138
+1 139
+end
+end
+#---------------------------------
+#end agent 2
+
+#agent 3
+
+#p#1 s_1(1)
+
+automaton 
+#38
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 2
+x1 < L1
+end
+
+transition 0 1 6
+x1 < L1
+end
+
+transition 0 1 29
+x1 < L1
+end
+
+transition 0 1 38
+x1 < L1
+end
+
+transition 0 1 65
+x1 < L1
+end
+
+transition 0 1 74
+x1 < L1
+end
+
+transition 0 1 86
+x1 < L1
+end
+
+transition 0 1 87
+x1 < L1
+end
+
+transition 0 1 88
+x1 < L1
+end
+
+transition 0 1 93
+x1 < L1
+end
+
+transition 0 1 102
+x1 < L1
+end
+
+transition 0 1 111
+x1 < L1
+end
+
+transition 0 1 120
+x1 < L1
+end
+
+transition 0 1 129
+x1 < L1
+end
+
+transition 0 1 138
+x1 < L1
+end
+
+transition 0 1 147
+x1 < L1
+end
+
+transition 0 1 156
+x1 < L1
+end
+
+transition 0 1 164
+x1 < L1
+end
+
+transition 0 1 168
+x1 < L1
+end
+
+transition 0 1 169
+x1 < L1
+end
+
+transition 0 1 170
+x1 < L1
+end
+
+transition 1 1 3
+x1 < L1
+end
+
+transition 1 1 7
+x1 < L1
+end
+
+transition 1 1 30
+x1 < L1
+end
+
+transition 1 1 39
+x1 < L1
+end
+
+transition 1 1 66
+x1 < L1
+end
+
+transition 1 1 75
+x1 < L1
+end
+
+transition 1 1 86
+x1 < L1
+end
+
+transition 1 1 87
+x1 < L1
+end
+
+transition 1 1 88
+x1 < L1
+end
+
+transition 1 1 89
+x1 < L1
+end
+
+transition 1 1 94
+x1 < L1
+end
+
+transition 1 1 103
+x1 < L1
+end
+
+transition 1 1 112
+x1 < L1
+end
+
+transition 1 1 121
+x1 < L1
+end
+
+transition 1 1 130
+x1 < L1
+end
+
+transition 1 1 139
+x1 < L1
+end
+
+transition 1 1 148
+x1 < L1
+end
+
+transition 1 1 157
+x1 < L1
+end
+
+transition 1 1 165
+x1 < L1
+end
+
+transition 1 1 168
+x1 < L1
+end
+
+transition 1 1 169
+x1 < L1
+end
+
+transition 1 1 170
+x1 < L1
+end
+
+transition 1 1 171
+x1 < L1
+end
+
+valuation
+0 140
+1 141
+end
+end
+#---------------------------------
+#p#1 k_1_2(1)
+
+automaton 
+#39
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 3
+end
+
+transition 0 1 7
+end
+
+transition 0 1 12
+end
+
+transition 0 1 21
+end
+
+transition 0 1 30
+end
+
+transition 0 1 39
+end
+
+transition 0 1 48
+end
+
+transition 0 1 57
+end
+
+transition 0 1 66
+end
+
+transition 0 1 75
+end
+
+transition 0 1 89
+end
+
+transition 0 1 94
+end
+
+transition 0 1 103
+end
+
+transition 0 1 112
+end
+
+transition 0 1 121
+end
+
+transition 0 1 130
+end
+
+transition 0 1 139
+end
+
+transition 0 1 148
+end
+
+transition 0 1 157
+end
+
+transition 0 1 171
+end
+
+valuation
+0 142
+1 143
+end
+end
+#---------------------------------
+#p#1 s_2(1)
+
+automaton 
+#40
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 2
+x2 < L2
+end
+
+transition 0 1 6
+x2 < L2
+end
+
+transition 0 1 11
+x2 < L2
+end
+
+transition 0 1 20
+x2 < L2
+end
+
+transition 0 1 29
+x2 < L2
+end
+
+transition 0 1 38
+x2 < L2
+end
+
+transition 0 1 47
+x2 < L2
+end
+
+transition 0 1 56
+x2 < L2
+end
+
+transition 0 1 65
+x2 < L2
+end
+
+transition 0 1 74
+x2 < L2
+end
+
+transition 0 1 82
+x2 < L2
+end
+
+transition 0 1 86
+x2 < L2
+end
+
+transition 0 1 87
+x2 < L2
+end
+
+transition 0 1 88
+x2 < L2
+end
+
+transition 0 1 111
+x2 < L2
+end
+
+transition 0 1 120
+x2 < L2
+end
+
+transition 0 1 147
+x2 < L2
+end
+
+transition 0 1 156
+x2 < L2
+end
+
+transition 0 1 168
+x2 < L2
+end
+
+transition 0 1 169
+x2 < L2
+end
+
+transition 0 1 170
+x2 < L2
+end
+
+transition 1 1 3
+x2 < L2
+end
+
+transition 1 1 7
+x2 < L2
+end
+
+transition 1 1 12
+x2 < L2
+end
+
+transition 1 1 21
+x2 < L2
+end
+
+transition 1 1 30
+x2 < L2
+end
+
+transition 1 1 39
+x2 < L2
+end
+
+transition 1 1 48
+x2 < L2
+end
+
+transition 1 1 57
+x2 < L2
+end
+
+transition 1 1 66
+x2 < L2
+end
+
+transition 1 1 75
+x2 < L2
+end
+
+transition 1 1 83
+x2 < L2
+end
+
+transition 1 1 86
+x2 < L2
+end
+
+transition 1 1 87
+x2 < L2
+end
+
+transition 1 1 88
+x2 < L2
+end
+
+transition 1 1 89
+x2 < L2
+end
+
+transition 1 1 112
+x2 < L2
+end
+
+transition 1 1 121
+x2 < L2
+end
+
+transition 1 1 148
+x2 < L2
+end
+
+transition 1 1 157
+x2 < L2
+end
+
+transition 1 1 168
+x2 < L2
+end
+
+transition 1 1 169
+x2 < L2
+end
+
+transition 1 1 170
+x2 < L2
+end
+
+transition 1 1 171
+x2 < L2
+end
+
+valuation
+0 144
+1 145
+end
+end
+#---------------------------------
+#p#1 s_0(1)
+
+automaton 
+#41
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 11
+end
+
+transition 0 1 20
+end
+
+transition 0 1 47
+end
+
+transition 0 1 56
+end
+
+transition 0 1 82
+end
+
+transition 0 1 93
+end
+
+transition 0 1 102
+end
+
+transition 0 1 129
+end
+
+transition 0 1 138
+end
+
+transition 0 1 164
+end
+
+transition 1 1 12
+end
+
+transition 1 1 21
+end
+
+transition 1 1 48
+end
+
+transition 1 1 57
+end
+
+transition 1 1 83
+end
+
+transition 1 1 94
+end
+
+transition 1 1 103
+end
+
+transition 1 1 130
+end
+
+transition 1 1 139
+end
+
+transition 1 1 165
+end
+
+valuation
+0 146
+1 147
+end
+end
+#---------------------------------
+#p#1 k_2_0(1)
+
+automaton 
+#42
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 3
+end
+
+transition 0 1 12
+end
+
+transition 0 1 21
+end
+
+transition 0 1 30
+end
+
+transition 0 1 39
+end
+
+transition 0 1 48
+end
+
+transition 0 1 57
+end
+
+transition 0 1 66
+end
+
+transition 0 1 75
+end
+
+transition 0 1 83
+end
+
+transition 0 1 165
+end
+
+transition 0 1 171
+end
+
+valuation
+0 148
+1 149
+end
+end
+#---------------------------------
+#p#1 k_2#1(1)
+
+automaton 
+#43
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 3
+end
+
+transition 0 1 12
+end
+
+transition 0 1 21
+end
+
+transition 0 1 30
+end
+
+transition 0 1 39
+end
+
+transition 0 1 48
+end
+
+transition 0 1 57
+end
+
+transition 0 1 66
+end
+
+transition 0 1 75
+end
+
+transition 0 1 171
+end
+
+transition 1 1 3
+end
+
+transition 1 1 12
+end
+
+transition 1 1 21
+end
+
+transition 1 1 30
+end
+
+transition 1 1 39
+end
+
+transition 1 1 48
+end
+
+transition 1 1 57
+end
+
+transition 1 1 66
+end
+
+transition 1 1 75
+end
+
+transition 1 1 103
+end
+
+transition 1 1 121
+end
+
+transition 1 1 139
+end
+
+transition 1 1 157
+end
+
+transition 1 1 171
+end
+
+valuation
+0 150
+1 151
+end
+end
+#---------------------------------
+#end agent 3
+
+#agent 4
+
+#p_0 s_1(1)
+
+automaton 
+#44
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 30
+x1 < L1
+end
+
+transition 0 1 94
+x1 < L1
+end
+
+transition 0 1 112
+x1 < L1
+end
+
+transition 0 1 163
+x1 < L1
+end
+
+transition 0 1 167
+end
+
+transition 1 1 27
+x1 < L1
+end
+
+transition 1 1 28
+x1 < L1
+end
+
+transition 1 1 36
+x1 < L1
+end
+
+transition 1 1 37
+x1 < L1
+end
+
+transition 1 1 63
+x1 < L1
+end
+
+transition 1 1 64
+x1 < L1
+end
+
+transition 1 1 72
+x1 < L1
+end
+
+transition 1 1 73
+x1 < L1
+end
+
+transition 1 1 88
+x1 < L1
+end
+
+transition 1 1 94
+x1 < L1
+end
+
+transition 1 1 98
+x1 < L1
+end
+
+transition 1 1 99
+x1 < L1
+end
+
+transition 1 1 107
+x1 < L1
+end
+
+transition 1 1 108
+x1 < L1
+end
+
+transition 1 1 112
+x1 < L1
+end
+
+transition 1 1 116
+x1 < L1
+end
+
+transition 1 1 117
+x1 < L1
+end
+
+transition 1 1 125
+x1 < L1
+end
+
+transition 1 1 126
+x1 < L1
+end
+
+transition 1 1 134
+x1 < L1
+end
+
+transition 1 1 135
+x1 < L1
+end
+
+transition 1 1 143
+x1 < L1
+end
+
+transition 1 1 144
+x1 < L1
+end
+
+transition 1 1 152
+x1 < L1
+end
+
+transition 1 1 153
+x1 < L1
+end
+
+transition 1 1 161
+x1 < L1
+end
+
+transition 1 1 162
+x1 < L1
+end
+
+transition 1 1 163
+x1 < L1
+end
+
+transition 1 1 164
+x1 < L1
+end
+
+transition 1 1 167
+end
+
+transition 1 1 170
+x1 < L1
+end
+
+valuation
+0 152
+1 153
+end
+end
+#---------------------------------
+#p_0 k_1_2(1)
+
+automaton 
+#45
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 12
+end
+
+transition 0 1 30
+end
+
+transition 0 1 94
+end
+
+transition 0 1 112
+end
+
+transition 1 1 12
+end
+
+transition 1 1 24
+end
+
+transition 1 1 25
+end
+
+transition 1 1 26
+end
+
+transition 1 1 30
+end
+
+transition 1 1 42
+end
+
+transition 1 1 43
+end
+
+transition 1 1 44
+end
+
+transition 1 1 60
+end
+
+transition 1 1 61
+end
+
+transition 1 1 62
+end
+
+transition 1 1 78
+end
+
+transition 1 1 79
+end
+
+transition 1 1 80
+end
+
+transition 1 1 94
+end
+
+transition 1 1 112
+end
+
+valuation
+0 154
+1 155
+end
+end
+#---------------------------------
+#p_0 <k_2#1(1),i(p_1)|k_1_2(1)>
+
+automaton 
+#46
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 39
+end
+
+transition 0 1 57
+end
+
+transition 0 1 75
+end
+
+transition 0 1 172
+end
+
+transition 1 1 39
+end
+
+transition 1 1 40
+end
+
+transition 1 1 41
+end
+
+transition 1 1 43
+end
+
+transition 1 1 57
+end
+
+transition 1 1 58
+end
+
+transition 1 1 59
+end
+
+transition 1 1 61
+end
+
+transition 1 1 75
+end
+
+transition 1 1 76
+end
+
+transition 1 1 77
+end
+
+transition 1 1 79
+end
+
+transition 1 1 172
+end
+
+valuation
+0 156
+1 157
+end
+end
+#---------------------------------
+#p_0 s_2(1)
+
+automaton 
+#47
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 12
+x2 < L2
+end
+
+transition 0 1 30
+x2 < L2
+end
+
+transition 0 1 81
+x2 < L2
+end
+
+transition 0 1 85
+end
+
+transition 0 1 112
+x2 < L2
+end
+
+transition 1 1 12
+x2 < L2
+end
+
+transition 1 1 16
+x2 < L2
+end
+
+transition 1 1 17
+x2 < L2
+end
+
+transition 1 1 25
+x2 < L2
+end
+
+transition 1 1 26
+x2 < L2
+end
+
+transition 1 1 30
+x2 < L2
+end
+
+transition 1 1 34
+x2 < L2
+end
+
+transition 1 1 35
+x2 < L2
+end
+
+transition 1 1 43
+x2 < L2
+end
+
+transition 1 1 44
+x2 < L2
+end
+
+transition 1 1 52
+x2 < L2
+end
+
+transition 1 1 53
+x2 < L2
+end
+
+transition 1 1 61
+x2 < L2
+end
+
+transition 1 1 62
+x2 < L2
+end
+
+transition 1 1 70
+x2 < L2
+end
+
+transition 1 1 71
+x2 < L2
+end
+
+transition 1 1 79
+x2 < L2
+end
+
+transition 1 1 80
+x2 < L2
+end
+
+transition 1 1 81
+x2 < L2
+end
+
+transition 1 1 82
+x2 < L2
+end
+
+transition 1 1 85
+end
+
+transition 1 1 88
+x2 < L2
+end
+
+transition 1 1 109
+x2 < L2
+end
+
+transition 1 1 110
+x2 < L2
+end
+
+transition 1 1 118
+x2 < L2
+end
+
+transition 1 1 119
+x2 < L2
+end
+
+transition 1 1 145
+x2 < L2
+end
+
+transition 1 1 146
+x2 < L2
+end
+
+transition 1 1 154
+x2 < L2
+end
+
+transition 1 1 155
+x2 < L2
+end
+
+transition 1 1 170
+x2 < L2
+end
+
+valuation
+0 158
+1 159
+end
+end
+#---------------------------------
+#p_0 s_0(1)
+
+automaton 
+#48
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 12
+end
+
+transition 0 1 84
+end
+
+transition 0 1 94
+end
+
+transition 0 1 166
+end
+
+transition 1 1 12
+end
+
+transition 1 1 84
+end
+
+transition 1 1 94
+end
+
+transition 1 1 166
+end
+
+valuation
+0 160
+1 161
+end
+end
+#---------------------------------
+#p_0 <k_1#1(1),i(p_2)|k_1_2(1)|s_0(1)|s_2(1)>
+
+automaton 
+#49
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 21
+end
+
+transition 0 1 57
+end
+
+transition 1 1 21
+end
+
+transition 1 1 57
+end
+
+valuation
+0 162
+1 163
+end
+end
+#---------------------------------
+#p_0 <k_2#1(1),i(p_0)|k_1_2(1)>
+
+automaton 
+#50
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 21
+end
+
+transition 1 1 21
+end
+
+transition 1 1 22
+end
+
+transition 1 1 23
+end
+
+transition 1 1 25
+end
+
+valuation
+0 164
+1 165
+end
+end
+#---------------------------------
+#p_0 <k_1#1(1),i(p_2)|k_1_2(1)|s_1(1)|s_2(1)>
+
+automaton 
+#51
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 39
+end
+
+transition 0 1 75
+end
+
+transition 1 1 39
+end
+
+transition 1 1 75
+end
+
+valuation
+0 166
+1 167
+end
+end
+#---------------------------------
+#p_0 <k_0#1(1),i(p_2)|k_0_2(1)|s_0(1)|s_2(1)>
+
+automaton 
+#52
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 48
+end
+
+transition 1 1 48
+end
+
+valuation
+0 168
+1 169
+end
+end
+#---------------------------------
+#p_0 <k_2#1(1),i(p_1)|k_0_2(1)>
+
+automaton 
+#53
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 30
+end
+
+transition 0 1 48
+end
+
+transition 0 1 66
+end
+
+transition 1 1 30
+end
+
+transition 1 1 31
+end
+
+transition 1 1 32
+end
+
+transition 1 1 34
+end
+
+transition 1 1 48
+end
+
+transition 1 1 49
+end
+
+transition 1 1 50
+end
+
+transition 1 1 52
+end
+
+transition 1 1 66
+end
+
+transition 1 1 67
+end
+
+transition 1 1 68
+end
+
+transition 1 1 70
+end
+
+valuation
+0 170
+1 171
+end
+end
+#---------------------------------
+#p_0 <k_0#1(1),i(p_2)|k_0_2(1)|s_1(1)|s_2(1)>
+
+automaton 
+#54
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 66
+end
+
+transition 1 1 66
+end
+
+valuation
+0 172
+1 173
+end
+end
+#---------------------------------
+#p_0 k_2_0(1)
+
+automaton 
+#55
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 12
+end
+
+transition 0 1 30
+end
+
+transition 0 1 84
+end
+
+transition 0 1 166
+end
+
+transition 1 1 12
+end
+
+transition 1 1 30
+end
+
+transition 1 1 84
+end
+
+transition 1 1 166
+end
+
+valuation
+0 174
+1 175
+end
+end
+#---------------------------------
+#p_0 <k_1#1(1),i(p_2)|k_2_1(1)>
+
+automaton 
+#56
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 90
+end
+
+transition 0 1 121
+end
+
+transition 0 1 139
+end
+
+transition 0 1 157
+end
+
+transition 1 1 90
+end
+
+transition 1 1 121
+end
+
+transition 1 1 122
+end
+
+transition 1 1 123
+end
+
+transition 1 1 125
+end
+
+transition 1 1 139
+end
+
+transition 1 1 140
+end
+
+transition 1 1 141
+end
+
+transition 1 1 143
+end
+
+transition 1 1 157
+end
+
+transition 1 1 158
+end
+
+transition 1 1 159
+end
+
+transition 1 1 161
+end
+
+valuation
+0 176
+1 177
+end
+end
+#---------------------------------
+#p_0 <k_2_1(1),s_1(1)>
+
+automaton 
+#57
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 90
+end
+
+transition 1 1 90
+end
+
+transition 1 1 104
+end
+
+transition 1 1 105
+end
+
+transition 1 1 106
+end
+
+transition 1 1 122
+end
+
+transition 1 1 123
+end
+
+transition 1 1 124
+end
+
+transition 1 1 140
+end
+
+transition 1 1 141
+end
+
+transition 1 1 142
+end
+
+transition 1 1 158
+end
+
+transition 1 1 159
+end
+
+transition 1 1 160
+end
+
+valuation
+0 178
+1 179
+end
+end
+#---------------------------------
+#p_0 <k_2#1(1),i(p_1)|k_2_1(1)|s_0(1)|s_1(1)>
+
+automaton 
+#58
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 103
+end
+
+transition 0 1 139
+end
+
+transition 1 1 103
+end
+
+transition 1 1 139
+end
+
+valuation
+0 180
+1 181
+end
+end
+#---------------------------------
+#p_0 <k_1#1(1),i(p_0)|k_2_1(1)>
+
+automaton 
+#59
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 103
+end
+
+transition 1 1 103
+end
+
+transition 1 1 104
+end
+
+transition 1 1 105
+end
+
+transition 1 1 107
+end
+
+valuation
+0 182
+1 183
+end
+end
+#---------------------------------
+#p_0 <k_2#1(1),i(p_1)|k_2_1(1)|s_2(1)|s_1(1)>
+
+automaton 
+#60
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 121
+end
+
+transition 0 1 157
+end
+
+transition 1 1 121
+end
+
+transition 1 1 157
+end
+
+valuation
+0 184
+1 185
+end
+end
+#---------------------------------
+#p_0 <k_0#1(1),i(p_1)|k_0_1(1)|s_0(1)|s_1(1)>
+
+automaton 
+#61
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 130
+end
+
+transition 1 1 130
+end
+
+valuation
+0 186
+1 187
+end
+end
+#---------------------------------
+#p_0 <k_1#1(1),i(p_2)|k_0_1(1)>
+
+automaton 
+#62
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 112
+end
+
+transition 0 1 130
+end
+
+transition 0 1 148
+end
+
+transition 1 1 112
+end
+
+transition 1 1 113
+end
+
+transition 1 1 114
+end
+
+transition 1 1 116
+end
+
+transition 1 1 130
+end
+
+transition 1 1 131
+end
+
+transition 1 1 132
+end
+
+transition 1 1 134
+end
+
+transition 1 1 148
+end
+
+transition 1 1 149
+end
+
+transition 1 1 150
+end
+
+transition 1 1 152
+end
+
+valuation
+0 188
+1 189
+end
+end
+#---------------------------------
+#p_0 <k_0#1(1),i(p_1)|k_0_1(1)|s_2(1)|s_1(1)>
+
+automaton 
+#63
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 148
+end
+
+transition 1 1 148
+end
+
+valuation
+0 190
+1 191
+end
+end
+#---------------------------------
+#p_0 k_2#1(1)
+
+automaton 
+#64
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 12
+end
+
+transition 0 1 30
+end
+
+transition 1 1 12
+end
+
+transition 1 1 15
+end
+
+transition 1 1 17
+end
+
+transition 1 1 24
+end
+
+transition 1 1 26
+end
+
+transition 1 1 30
+end
+
+transition 1 1 33
+end
+
+transition 1 1 35
+end
+
+transition 1 1 42
+end
+
+transition 1 1 44
+end
+
+transition 1 1 51
+end
+
+transition 1 1 53
+end
+
+transition 1 1 60
+end
+
+transition 1 1 62
+end
+
+transition 1 1 69
+end
+
+transition 1 1 71
+end
+
+transition 1 1 78
+end
+
+transition 1 1 80
+end
+
+transition 1 1 170
+end
+
+valuation
+0 192
+1 193
+end
+end
+#---------------------------------
+#p_0 <k_2#1(1),i(p_0)|k_0_2(1)>
+
+automaton 
+#65
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 12
+end
+
+transition 1 1 12
+end
+
+transition 1 1 13
+end
+
+transition 1 1 14
+end
+
+transition 1 1 16
+end
+
+valuation
+0 194
+1 195
+end
+end
+#---------------------------------
+#p_0 <k_0_2(1),s_2(1)>
+
+automaton 
+#66
+
+location 0
+end
+
+location 1
+end
+
+transition 1 1 13
+end
+
+transition 1 1 31
+end
+
+transition 1 1 49
+end
+
+transition 1 1 50
+end
+
+transition 1 1 51
+end
+
+transition 1 1 67
+end
+
+transition 1 1 68
+end
+
+transition 1 1 69
+end
+
+valuation
+0 196
+1 197
+end
+end
+#---------------------------------
+#p_0 <k_1_2(1),s_2(1)>
+
+automaton 
+#67
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 172
+end
+
+transition 1 1 22
+end
+
+transition 1 1 23
+end
+
+transition 1 1 24
+end
+
+transition 1 1 40
+end
+
+transition 1 1 41
+end
+
+transition 1 1 42
+end
+
+transition 1 1 58
+end
+
+transition 1 1 59
+end
+
+transition 1 1 60
+end
+
+transition 1 1 76
+end
+
+transition 1 1 77
+end
+
+transition 1 1 78
+end
+
+transition 1 1 172
+end
+
+valuation
+0 198
+1 199
+end
+end
+#---------------------------------
+#p_0 <k_1#1(1),i(p_2)|s_2(1)|s_1(1)>
+
+automaton 
+#68
+
+location 0
+end
+
+location 1
+end
+
+transition 1 1 86
+end
+
+transition 1 1 87
+end
+
+valuation
+0 200
+1 201
+end
+end
+#---------------------------------
+#p_0 <k_1#1(1),i(p_0)|k_0_1(1)>
+
+automaton 
+#69
+
+location 0
+end
+
+location 1
+end
+
+transition 0 1 94
+end
+
+transition 1 1 94
+end
+
+transition 1 1 95
+end
+
+transition 1 1 96
+end
+
+transition 1 1 98
+end
+
+valuation
+0 202
+1 203
+end
+end
+#---------------------------------
+#p_0 <k_0_1(1),s_1(1)>
+
+automaton 
+#70
+
+location 0
+end
+
+location 1
+end
+
+transition 1 1 95
+end
+
+transition 1 1 113
+end
+
+transition 1 1 131
+end
+
+transition 1 1 132
+end
+
+transition 1 1 133
+end
+
+transition 1 1 149
+end
+
+transition 1 1 150
+end
+
+transition 1 1 151
+end
+
+valuation
+0 204
+1 205
+end
+end
+#---------------------------------
+#p_0 <k_2#1(1),i(p_1)|s_1(1)|s_2(1)>
+
+automaton 
+#71
+
+location 0
+end
+
+location 1
+end
+
+transition 1 1 168
+end
+
+transition 1 1 169
+end
+
+valuation
+0 206
+1 207
+end
+end
+#---------------------------------
+#end agent 4
+
+end

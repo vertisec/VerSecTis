@@ -1,0 +1,456 @@
+Installing for ubuntu:
+
+sudo apt-get install z3
+sudo apt-get install time
+
+cd vertisec
+python3 main.py
+
+
+
+------------------------------------------------------
+
+Andrew protocol  
+
+Goal: Exchanged of a fresh shared key
+
+References:
+- http://www.lsv.fr/Software/spore/andrew.html
+- M. Satyanarayanan. Integrating security in a large distributed system. ACM Transactions on Computer Systems, 7(3):247--280, 1989.
+	https://www.cs.cmu.edu/~satya/docdir/satya-tocs-afs-security-1989.pdf
+
+1.  	 A     ->     B     :  	 A, {Ta}Kab
+2.  	 B     ->     A     :  	 {succTa, Tb}Kab
+3.  	 A     ->     B     :  	 {succTb}Kab
+4.  	 B     ->     A     :  	 {K'ab, T'b}Kab
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+-------------------------------------------------------
+
+BAN modified Andrew Secure RPC protocol
+
+Goal: Exchanged of a fresh shared key
+
+References:
+- http://www.lsv.fr/Software/spore/andrewBAN.html
+- Michael Burrows, Martin Abadi, and Roger Needham. A logic of authentication. Technical Report 39, Digital Systems Research Center, february 1989.
+http://www.cs.cmu.edu/~dga/15-712/F07/papers/Burrows90.pdf
+
+
+1.  	 A     ->     B     :  	 A, {Ta}Kab
+2.  	 B     ->     A     :  	 {succTa, Tb}Kab
+3.  	 A     ->     B     :  	 {succTb}Kab
+4.  	 B     ->     A     :  	 {K'ab, T'b, Ta}Kab
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+
+
+Carlsen's Secret Key Initiator Protocol
+
+ 
+1.	A -> B : A,Ta
+2.	B -> S : A,Ta,B,Tb
+3.	S -> B : {Kab,Tb,A}Kbs,{Ta,B,Kab}Kas
+4.	B -> A : {Ta,B,Kab}Kas,{Na}Kas,Tb'
+5.	A -> B : {Tb'}Kab
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+------------------------------------------------------
+
+
+Denning-Sacco protocol
+
+Goal: Distribution of a shared symmetric key by a trusted server and mutual authentification.
+
+References:
+- http://www.lsv.fr/Software/spore/denningSacco.html
+-	D. Denning and G. Sacco. Timestamps in key distributed protocols. Communication of the ACM, 24(8):533--535, 1981.
+http://pages.cs.wisc.edu/~remzi/Classes/736/Spring2005/Papers/data-encryption-denning.pdf
+
+1.  	 A     ->     S     :  	 A, B
+2.  	 S     ->     A     :  	 {B, Kab, Ts, {Kab, A, Ts}Kbs}Kas
+3.  	 A     ->     B     :  	 {Kab,A, Ts}Kbs
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+------------------------------------------------------
+
+
+Kao Chow Authentication v.1 protocol
+
+Goal: Key distribution and authentication protocol.
+
+References:
+- http://www.lsv.fr/Software/spore/kaoChow1.html
+- 	I Lung Kao and Randy Chow. An efficient and secure authentication protocol using uncertified keys. Operating Systems Review, 29(3):14--21, 1995.
+ 
+
+1.  	 A     ->     S     :  	 A, B, Ta
+2.  	 S     ->     B     :  	 {A, B, Ta, Kab}Kas, {A, B, Ta, Kab}Kbs
+3.  	 B     ->     A     :  	 {A, B, Ta, Kab}Kas, {Na}Kab, Tb
+4.  	 A     ->     B     :  	 {Tb}Kab
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+------------------------------------------------------
+
+
+Needham Schroeder Symmetric Key protocol
+
+Goal: Distribution of a shared symmetric key by a trusted server and mutual authentification.
+
+References:
+- www.lsv.fr/Software/spore/nssk.html
+- R. Needham and M. Schroeder. Using encryption for authentication in large networks of computers. Communications of the ACM, 21(12), December 1978.
+ vwww.cs.unc.edu/~fabian/course_papers/needham.pdf
+
+1.  	 A     ->     S     :  	 A, B, Ta
+2.  	 S     ->     A     :  	 {Ta, B, Kab, {Kab, A}Kbs}Kas
+3.  	 A     ->     B     :  	 {Kab,A}Kbs
+4.  	 B     ->     A     :  	 {Tb}Kab
+5.  	 A     ->     B     :  	 {dec(Tb)}Kab
+
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+------------------------------------------------------
+
+
+Wide Mouthed Frog protocol
+
+Goal: Distribution of a fresh shared key.
+
+References:
+- http://www.lsv.fr/Software/spore/wideMouthedFrog.html
+- Michael Burrows, Martin Abadi, and Roger Needham. A logic of authentication. Technical Report 39, Digital Systems Research Center, february 1989.
+http://www.cs.cmu.edu/~dga/15-712/F07/papers/Burrows90.pdf
+
+
+1.  	 A     ->     S     :  	 A, {Ta, B, Kab}Kas
+2.  	 S     ->     B     :  	 {Ts, A, Kab}Kbs
+
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+------------------------------------------------------
+
+
+  Lowe modified Wide Mouthed Frog
+
+Goal: Exchanged of a fresh shared key.
+
+References:
+- http://www.lsv.fr/Software/spore/wideMouthedFrogLowe.html
+- Gavin Lowe. A family of attacks upon authentication protocols. Technical Report 1997/5, Department of Mathematics and Computer Science, University of Leicester, 1997.
+ 
+
+1.  	 A     ->     S     :  	 A, {Ta, B, Kab}Kas
+2.  	 S     ->     B     :  	 {Ts, A, Kab}Kbs
+3.  	 B     ->     A     :  	 {Tb}Kab
+4.  	 A     ->     B     :  	 {succ(Tb)}Kab
+
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+------------------------------------------------------
+
+
+Woo and Lam Pi protocol
+
+Goal: One way authentification protocol with public keys and trusted server.
+
+References:
+- www.lsv.fr/Software/spore/wooLamPi.html  
+- 	T. Y. C. Woo and S. S. Lam. A lesson on authentication protocol design. Operating Systems Review, 1994.
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.2554&rep=rep1&type=pdf
+ 
+
+1.  	 A     ->     B     :  	 A
+2.  	 B     ->     A     :  	 Tb
+3.  	 A     ->     B     :  	 {Tb}Kas
+4.  	 B     ->     S     :  	 {A, {Tb}Kas}Kbs
+5.  	 S     ->     B     :  	 {Tb}Kbs
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+------------------------------------------------------
+
+
+Woo and Lam Pi 1 protocol
+
+Goal: One way authentification protocol with public keys and trusted server.
+
+References:
+- http://www.lsv.fr/Software/spore/wooLamPi1.html
+- 	T. Y. C. Woo and S. S. Lam. A lesson on authentication protocol design. Operating Systems Review, 1994.
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.2554&rep=rep1&type=pdf
+ 
+
+1.  	 A     ->     B     :  	 A
+2.  	 B     ->     A     :  	 Tb
+3.  	 A     ->     B     :  	 {A,B,Tb}Kas
+4.  	 B     ->     S     :  	 {A, B, {A, B,Tb}Kas}Kbs
+5.  	 S     ->     B     :  	 {A, B, Tb}Kbs
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+
+------------------------------------------------------
+
+
+
+Woo and Lam Pi 2 protocol
+
+Goal: One way authentification protocol with public keys and trusted server.
+
+References:
+- http://www.lsv.fr/Software/spore/wooLamPi2.html
+- 	T. Y. C. Woo and S. S. Lam. A lesson on authentication protocol design. Operating Systems Review, 1994.
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.2554&rep=rep1&type=pdf
+ 
+
+1.  	 A     ->     B     :  	 A
+2.  	 B     ->     A     :  	 Tb
+3.  	 A     ->     B     :  	 {A,Tb}Kas
+4.  	 B     ->     S     :  	 {A, {A, Tb}Kas}Kbs
+5.  	 S     ->     B     :  	 {A, Tb}Kbs
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+------------------------------------------------------
+
+
+Woo and Lam Pi 3 protocol
+
+Goal: One way authentification protocol with public keys and trusted server.
+
+References:
+- http://www.lsv.fr/Software/spore/wooLamPi3.html
+- 	T. Y. C. Woo and S. S. Lam. A lesson on authentication protocol design. Operating Systems Review, 1994.
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.2554&rep=rep1&type=pdf
+ 
+
+1..  	 A     ->     B     :  	 A
+2..  	 B     ->     A     :  	 Tb
+3..  	 A     ->     B     :  	 {Tb}Kas
+4..  	 B     ->     S     :  	 {A, {Tb}Kas}Kbs
+5..  	 S     ->     B     :  	 {A, Tb}Kbs
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+------------------------------------------------------
+
+
+Yahalom protocol
+
+Goal:  Distribution of a fresh symmetric shared key by a trusted server and mutual authentication.
+
+References:
+- http://www.lsv.fr/Software/spore/yahalom.html
+- Michael Burrows, Martin Abadi, and Roger Needham. A logic of authentication. Technical Report 39, Digital Systems Research Center, february 1989.
+http://www.cs.cmu.edu/~dga/15-712/F07/papers/Burrows90.pdf
+
+ 
+
+1.  	 A     ->     B     :  	 A, Ta
+2.  	 B     ->     S     :  	 B, {A, Ta, Tb}Kbs
+3.  	 S     ->     A     :  	 {B, Kab, Ta, Tb}Kas, {A, Kab}Kbs
+4.  	 A     ->     B     :  	 {A, Kab}Kbs, {Tb}Kab
+
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+------------------------------------------------------
+
+
+Paulson's modification of Yahalom protocol
+
+Goal:  Distribution of a fresh symmetric shared key by a trusted server and mutual authentication.
+
+References:
+- http://www.lsv.fr/Software/spore/yahalomPaulson.html
+- Lawrence C. Paulson. Relations between secrets: Two formal analyses of the yahalom protocol. J. Computer Security, 2001.
+https://www.cl.cam.ac.uk/~lp15/papers/Auth/yahalom.pdf
+
+ 
+
+1.  	 A     ->     B     :  	 A, Ta
+2.  	 B     ->     S     :  	 B, Tb, {A, Ta}Kbs
+3.  	 S     ->     A     :  	 Tb, {B, Kab, Ta}Kas, {A, B, Kab, Tb}Kbs
+4.  	 A     ->     B     :  	 {A, B, Kab, Tb}Kbs, {Tb}Kab
+
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+
+------------------------------------------------------
+
+
+
+BAN modification of Yahalom protocol
+
+Goal:  Distribution of a fresh symmetric shared key by a trusted server and mutual authentication.
+
+References:
+- http://www.lsv.fr/Software/spore/yahalomBAN.html
+- Michael Burrows, Martin Abadi, and Roger Needham. A logic of authentication. Technical Report 39, Digital Systems Research Center, february 1989.
+http://www.cs.cmu.edu/~dga/15-712/F07/papers/Burrows90.pdf
+
+ 
+
+1.  	 A     ->     B     :  	 A, Ta
+2.  	 B     ->     S     :  	 B, Tb, {A, Ta}Kbs
+3.  	 S     ->     A     :  	 Tb, {B, Kab, Ta}Kas, {A, Kab, Tb}Kbs
+4.  	 A     ->     B     :  	 {A, Kab, Tb}Kbs, {Tb}Kab
+
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+
+------------------------------------------------------
+
+
+Lowe's modification of Yahalom protocol
+
+Goal:  Distribution of a fresh symmetric shared key by a trusted server and mutual authentication.
+
+References:
+- http://www.lsv.fr/Software/spore/yahalomBAN.html
+- Gavin Lowe. Towards a completeness result for model checking of security protocols. Technical Report 1998/6, Dept. of Mathematics and Computer Science, University of Leicester, 1998.
+
+ 
+1.  	 A     ->     B     :  	 A, Ta
+2.  	 B     ->     S     :  	 {A, Ta, Tb}Kbs
+3.  	 S     ->     A     :  	 {B, Kab, Ta, Tb}Kas
+4.  	 S     ->     B     :  	 {A, Kab}Kbs
+5.  	 A     ->     B     :  	 {A, B, S, Tb}Kab
+
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+
+------------------------------------------------------
+
+
+
+Needham-Schroeder Public Key protocol
+
+Goal:  Mutual authentication, using public keys.
+
+References:
+- http://www.lsv.fr/Software/spore/nspk.html
+- 	Roger Needham and Michael Schroeder. Using encryption for authentification in large networks of computers. Communications of the ACM, 21(12), December 1978.
+http://www.cs.unc.edu/~fabian/course_papers/needham.pdf
+
+ 
+1.  	 A     ->     B     :  	 {Ta, A}Kb  
+2.  	 B     ->     A     :  	 {Ta, Tb}Ka
+3.  	 A     ->     B     :  	 {Tb}Kb
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+3) Lowe's attack 1 - communication between Intruder (impersonates A) and B
+4) Lowe's attack 2 - communication between Intruder (impersonates B) and A
+
+Lowe's attack was described in ,,An attack on the Needham-Schroeder public key authentication protocol'' (http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.7797&rep=rep1&type=pdf).
+
+
+------------------------------------------------------
+
+
+Lowe's modification of NSPK protocol
+
+Goal:  Mutual authentication, using public keys.
+
+References:
+- http://www.lsv.fr/Software/spore/nspkLowe.html
+- Gavin Lowe. An attack on the Needham-Schroeder public key authentication protocol. Information Processing Letters, 56(3):131--136, November 1995.
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.7797&rep=rep1&type=pdf
+
+ 
+1.  	 A     ->     B     :  	 {Ta, A}Kb
+2.  	 B     ->     A     :  	 {Ta, Tb, B}Ka
+3.  	 A     ->     B     :  	 {Tb}Kb
+
+Versions of attack:
+1) Man in The Middle 1 - communication between Intruder (impersonates A) and B
+2) Man in The Middle 2 - communication between Intruder (impersonates B) and A
+
+
+------------------------------------------------------
+
+
+MobInfoSec
+
+References:
+Siedlecka-Lamch O., Kurkowski M., El Fray I., Pejas J., Verification of Mutual Authentication Protocol for MobInfoSec System, in Proceedings of 14th International Conference CISIM 2015, Warsaw, Poland, Lecture Notes in Computer Science vol. 9339, 461-474, 2015
+
+
+1. SP.A -> MU.A: Tsp.a, SP.A
+2. MU.A -> MU.B: Tsp.a, SP.A
+3. MU.B -> SP.B: Tsp.a, SP.A
+4. SP.B -> MU.B: {{Tsp.a, -Ksp.a, h(Tsp.b,Tsp.a,SP.A)}-Ksp.b}+Ksp.a
+5. MU.B -> MU.A: {{Tsp.a, -Ksp.a, h(Tsp.b,Tsp.a,SP.A)}-Ksp.b}+Ksp.a
+6. MU.A -> SP.A: {{Tsp.a, -Ksp.a, h(Tsp.b,Tsp.a,SP.A)}-Ksp.b}+Ksp.a
+
+
+Versions of attack:
+1) Man in The Middle 1 - Intruder impersonates SP.A
+2) Man in The Middle 2 - Intruder impersonates MU.A
+3) Man in The Middle 3 - Intruder impersonates SP.B
+4) Man in The Middle 4 - Intruder impersonates MU.B
+
+
+
