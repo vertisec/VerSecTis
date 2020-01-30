@@ -3,7 +3,7 @@ Installing for ubuntu:
 sudo apt-get install z3
 sudo apt-get install time
 
-cd vertisec
+cd VerSecTis
 python3 main.py
 
 
